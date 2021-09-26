@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.grow2 {
+    transition: all 0.01s ease-in-out;
+}
+
+.grow2:hover {
+    transform: scale(1.03);
+}
+
+.grow {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.grow:hover {
+    transform: scale(1.1) !important;
+}
