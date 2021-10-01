@@ -1,0 +1,97 @@
+.about {
+    padding: 5%;
+}
+
+.row .col {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.info-list ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+.info-list ul li {
+    padding: 11px 0;
+    position: relative;
+    display: block;
+    width: auto;
+    font-size: 16px;
+    word-break: break-word;
+    text-align: right;
+}
+
+.info-list ul li strong {
+    float: left;
+    margin-right: 8px;
+    padding: 1px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fefefe;
+    font-weight: 400;
+    background-color: #1e73be;
+}
+
+.my-services, .fun-facts {
+    margin-bottom: 30px;
+}
+
+.content .title {
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+    font-size: 20px;
+    color: #323232;
+    line-height: 21px;
+    min-height: 51px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.service-items .service-item {
+    text-align: center;
+}
+
+.service-items .service-item .icon {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    background: #1e73be;
+    border-radius: 50px;
+}
+
+.service-items .service-item .name {
+    margin: 10px 0 5px;
+    font-size: 17px;
+    color: #323232;
+    font-weight: 500;
+}
+
+.fuct-items .fuct-item {
+    position: relative;
+    text-align: center;
+}
+
+.fuct-items .fuct-item .icon {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 32px;
+    color: #1e73be;
+}
+
+.fuct-items .fuct-item .name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}

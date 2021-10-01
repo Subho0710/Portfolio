@@ -1,3 +1,84 @@
 <app-navbar></app-navbar>
 
-<p>contact works!</p>
+<div class="contact">
+    <div class="container">
+        <div class="title">
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-list">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <strong>
+                        <span>Address : </span>
+                    </strong>
+                    <span>Jamshedpur, Jharkhand, India</span>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-list">
+                    <i class="fas fa-envelope"></i>
+                    <strong>
+                        <span>Email : </span>
+                    </strong>
+                    <span>sojol2000@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-list">
+                    <i class="fas fa-share-alt"></i>
+                    <strong>
+                        <span>Social : </span>
+                    </strong>
+                    <div class="social">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-list">
+                    <i class="fas fa-phone-alt"></i>
+                    <strong>
+                        <span>Phone : </span>
+                    </strong>
+                    <span>+91 9122797288</span>
+                </div>
+            </div>
+        </div>
+        <form>
+            <div class="col-md-6 d-flex align-items-stretch form-group">
+                <input type="text" name="name" class="form-control" placeholder="Full Name">
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch form-group">
+                <input type="email" name="email" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="col col-d-12 col-t-12 col-m-12 form-group">
+                <label>Message Type</label>
+                <select class="form-control">
+                    <option value="complain">Complain</option>
+                    <option value="suggetsion">Suggestion</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="col col-d-12 col-t-12 col-m-12 form-group">
+                <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-default">
+                    <span>Send Message</span>
+                    <i class="fas fa-share-alt"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<app-footer></app-footer>
