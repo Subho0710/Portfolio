@@ -1,3 +1,80 @@
 .projects {
-    height: 80vh;
+    padding: 30px;
+    padding: 5% 15%;
+    position: relative;
+}
+
+.projects .title {
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    line-height: 21px;
+    min-height: 51px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.row .col {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.projects .row .col {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 30px;
+}
+
+.box {
+    position: relative;
+    overflow: visible;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid transparent;
+}
+
+.projects .box .image {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    a {
+        display: block;
+        font-size: 0;
+    }
+    img {
+        width: 80%;
+        position: relative;
+        height: auto;
+        transition: all .6s ease 0s;
+        transform: scale(1);
+        border-radius: 50%;
+        padding: 10%;
+    }
+}
+
+.projects .box .desc {
+    padding: 15px 0 0;
+    position: relative;
+    .name {
+        padding: 0;
+        display: block;
+        font-size: 17px;
+        color: #323232;
+        font-weight: 500;
+        text-transform: none;
+        word-break: break-word;
+        transition: all .3s ease 0s;
+    }
+    .category {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #999;
+    }
 }

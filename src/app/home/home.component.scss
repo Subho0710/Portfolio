@@ -1,3 +1,41 @@
+.home {
+    padding: 5% 15%;
+    position: relative;
+    background-color: rgba(221, 221, 221, 0.95);
+    // background-image: url(https://i.pinimg.com/originals/84/1b/e2/841be2ff1e0ce35beca92c26a07556e8.jpg);
+}
+
 #top-section {
     height: 100vh;
+}
+
+#profile {
+    padding: 5%;
+}
+
+.resume .title {
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    line-height: 21px;
+    min-height: 51px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.row .col {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#profile .right h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #1e73be;
+    padding-bottom: 10px;
 }

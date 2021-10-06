@@ -1,0 +1,219 @@
+.resume-comp {
+    padding: 5% 15%;
+    position: relative;
+}
+
+.resume .title {
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    line-height: 21px;
+    min-height: 51px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.resume-content .icon .fa, .skill-title .icon .fa {
+    font-size: 28px;
+    display: block;
+    line-height: 40px;
+}
+
+.resume-content .icon, .skill-title .icon {
+    position: relative;
+    top: -13px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #1e73be;
+    background: #fff;
+}
+
+.resume-content .name, .skill-title .name {
+    margin: 0 0 0 40px;
+    line-height: 14px;
+    color: #323232;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.row .col {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.resume-items .resume-item {
+    position: relative;
+    padding: 30px 0;
+}
+
+.resume-items .resume-item .image {
+    margin-left: 15px;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    float: right;
+    display: flex;
+    align-items: center;
+    font-size: 0;
+}
+
+.resume-items .resume-item .image img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.resume-items .resume-item .date {
+    margin: 0 0 11px;
+    padding: 0 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 18px;
+    color: #1e73be;
+    font-weight: 400;
+    border: 1px solid #eee;
+    border-color: #1e73be;
+}
+
+.resume-items .resume-item .name {
+    margin: 0;
+    font-size: 17px;
+    color: #323232;
+    font-weight: 500;
+}
+
+.resume-items .resume-item .company {
+    margin: 0 0 11px;
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+}
+
+ul {
+    margin-bottom: 25px;
+    padding-left: 0;
+}
+
+.single-post-text ul {
+    list-style: none;
+}
+
+.single-post-text ul>li {
+    margin: 8px 0;
+    padding: 0 0 0 18px;
+    position: relative;
+    font-weight: 400;
+}
+
+.single-post-text ul>li:before {
+    margin: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 4px;
+    height: 4px;
+    background: #1e73be;
+    border-radius: 4px;
+}
+
+.single-post-text div{
+    margin-top: 0;
+    p {
+        margin: 0;
+        clear: both;
+    }
+}
+
+// .skills-list .circles ul {
+//     margin: 0 -30px;
+//     text-align: center;
+// }
+
+// .skills-list .circles ul li {
+//     padding-bottom: 40px;
+//     display: inline-block;
+//     vertical-align: top;
+//     width: 44%;
+// }
+
+.skills-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list ul li {
+    position: relative;
+    padding: 30px 0 0;
+    font-size: 16px;
+}
+
+.skills-list ul li .name {
+    margin: 0 0 11px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.skills-list ul li .progress {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #eee;
+}
+
+.skills-list.list ul {
+    padding-top: 20px;
+}
+
+.skills-list.list ul li {
+    padding-top: 10px;
+}
+
+.skills-list ul li .icon {
+    padding: 0px 15px;
+    float: left;
+    color: #1e73be;
+}
+
+.skills-list .list ul li .name {
+    padding-left: 30px;
+    position: relative;
+}
+
+.skills-list.list ul li .progress {
+    display: none;
+}
+
+.skills-list ul li .progress .percentage {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    color: #fff;
+    background: #1e73be;
+}
+
+.circles ul li .progress {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 18px;
+    background: #eee;
+}

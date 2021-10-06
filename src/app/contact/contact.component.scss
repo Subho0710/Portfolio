@@ -1,0 +1,100 @@
+.contact {
+    padding: 5% 15%;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        line-height: 1;
+        border: none;
+    }
+}
+
+.info-list ul {
+    margin: 0 -15px;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+.info-list ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 11px 15px;
+    position: relative;
+    font-size: 16px;
+    word-break: break-word;
+    text-align: right;
+}
+
+.info-list ul li strong {
+    float: left;
+    margin-right: 8px;
+    padding: 1px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fefefe;
+    background: #1e73be;
+    font-weight: 400;
+    border-radius: 2px;
+    span {
+        padding-left: 10px;
+    }
+}
+
+.info-list .social a {
+    padding: 0 10px;
+    font-size: 20px;
+    i {
+        font-size: 20px;
+    }
+}
+
+.info, .contact-form {
+    margin-bottom: 30px;
+    margin: 0 0 40px;
+    position: relative;
+}
+
+.row .col {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.title {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: #323232;
+    line-height: 21px;
+    min-height: 51px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.row {
+    margin: 0 -30px;
+    position: relative;
+}
+
+.contact-form .row .col {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.submit span {
+    padding: 15px;
+}
