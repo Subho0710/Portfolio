@@ -1,6 +1,5 @@
 .projects {
-    padding: 30px;
-    padding: 5% 15%;
+    padding: 15vh 15% 5%;
     position: relative;
 }
 
@@ -76,5 +75,12 @@
         margin: 5px 0 0;
         font-size: 14px;
         color: #999;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .projects {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

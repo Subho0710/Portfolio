@@ -1,5 +1,5 @@
 .contact {
-    padding: 5% 15%;
+    padding: 15vh 15% 5%;
     position: relative;
 }
 
@@ -97,4 +97,17 @@
 
 .submit span {
     padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .info-list ul li {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contact {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
